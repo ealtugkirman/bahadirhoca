@@ -3,9 +3,9 @@ import styles from './style.module.scss';
 import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import { menuSlide } from '../animation';
-import Link from './Link';
-import Curve from './Curve';
-import Footer from './Footer';
+import Link from './Link/Link';
+import Curve from './Curve/Curve';
+import Footer from './Footer/Footer';
 
 const navItems = [
   {

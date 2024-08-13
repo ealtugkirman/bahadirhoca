@@ -1,9 +1,9 @@
 import styles from "./style.module.scss";
 import Image from "next/image";
-import Rounded from "../../common/RoundedButton";
+import Rounded from "../../common/RoundedButton/RoundedButton";
 import { useRef } from "react";
 import { useScroll, motion, useTransform, useSpring } from "framer-motion";
-import Magnetic from "../../common/Magnetic";
+import Magnetic from "../../common/Magnetic/Magnetic";
 import Link from "next/link";
 export default function index() {
   const container = useRef(null);

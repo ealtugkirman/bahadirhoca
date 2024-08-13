@@ -2,7 +2,7 @@ import styles from "./style.module.scss";
 import { useInView, motion } from "framer-motion";
 import { useRef } from "react";
 import { slideUp, opacity } from "./animation";
-import Rounded from "../../common/RoundedButton";
+import Rounded from "../../common/RoundedButton/RoundedButton";
 export default function index() {
   const phrase =
     "Bahadır Hoca, 12 yıllık tecrübesi ve KGSL ile Sakarya Üniversitesi Konservatuvarı’ndan aldığı sağlam eğitimle müzik alanında size rehberlik ediyor. İzmir’de sunduğu özel derslerle, piyano, yan flüt, kanun gibi enstrümanların yanı sıra Güzel Sanatlar Lisesi (GSL) ve Konservatuvar sınavlarına hazırlık eğitimi veriyor.";
